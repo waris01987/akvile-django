@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>System Akvile</title>
+    <meta name="description" content="System Akvile" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        background-color: white;
+      }
+      body {
+        background-image: url("{{ redirect_background }}");
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 95vh;
+      }
+      .title,
+      .subtitle,
+      .note {
+        font-family: "Poppins", sans-serif;
+        margin: 16px;
+        text-align: center;
+      }
+      .title {
+        font-size: 60px;
+      }
+      .note {
+        font-size: 12px;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+      }
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .button {
+        background-color: #fa4616;
+        border-radius: 12px;
+        border-width: 0;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        width: 100px;
+        height: 40px;
+        margin-top: 30px;
+        padding: 5px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+      <img src="{% static "logo.png" %}" alt="logo-image" width="100" >
+      <button onclick="redirect()" class="button">Go to app</button>
+    </div>
+    <script>
+      function redirect() {
+        window.location.replace("{{ url }}");
+      }
+      window.onload = function () {
+        redirect();
+      };
+    </script>
+  </body>
+</html>

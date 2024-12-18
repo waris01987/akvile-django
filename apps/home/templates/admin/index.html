@@ -1,0 +1,13 @@
+{% extends "admin/index.html" %}
+{% block content %}
+<div id="content-main">
+  <p>
+    <button>
+      <a href="{% url "explorer_index" %}">
+        SQL Explorer
+      </a>
+    </button>
+  </p>
+  {% include "admin/app_list.html" with app_list=app_list show_changelinks=True %}
+</div>
+{% endblock %}

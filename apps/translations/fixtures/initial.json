@@ -1,0 +1,18 @@
+[
+    {
+        "model": "translations.language",
+        "pk": "en",
+        "fields": {
+            "name": "English",
+            "flag": "languages/united-kingdom.png"
+        }
+    },
+    {
+        "model": "translations.language",
+        "pk": "lt",
+        "fields": {
+            "name": "Lietuvi\u0173",
+            "flag": "languages/lithuania.png"
+        }
+    }
+]

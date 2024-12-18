@@ -1,0 +1,27 @@
+{% extends "admin/base.html" %}
+
+{% block title %}
+    {{ site_title|default:_('Django site admin') }}
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">
+        <a href="{% url 'admin:index' %}">
+            {{ site_header|default:_('Django administration') }}
+        </a>
+    </h1>
+{% endblock %}
+
+{% block extrastyle %}
+
+    {{ block.super }}
+
+    <style>
+        .module h2, .module caption, .inline-group h2, #header {
+            background: {{ color }};
+        }
+
+    </style>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

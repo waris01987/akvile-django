@@ -1,0 +1,62 @@
+[
+  {
+    "value": 59,
+    "algorithm_name": "Translucency",
+    "algorithm_tech_name": "selfie_v2.translucency"
+  },
+  {
+    "value": 43,
+    "algorithm_name": "Uniformness",
+    "algorithm_tech_name": "selfie_v2.uniformness"
+  },
+  {
+    "value": 80,
+    "algorithm_name": "Wrinkles",
+    "algorithm_tech_name": "selfie_v2.wrinkles"
+  },
+  {
+    "value": 30,
+    "algorithm_name": "Pores",
+    "algorithm_tech_name": "selfie_v2.pores"
+  },
+  {
+    "value": 73,
+    "algorithm_name": "Eye Bags",
+    "algorithm_tech_name": "selfie_v2.eye_bags"
+  },
+  {
+    "value": 54,
+    "algorithm_name": "Quality",
+    "algorithm_tech_name": "selfie_v2.quality"
+  },
+  {
+    "value": 40,
+    "algorithm_name": "Sagging",
+    "algorithm_tech_name": "selfie_v2.sagging"
+  },
+  {
+    "value": 75,
+    "algorithm_name": "Hydration",
+    "algorithm_tech_name": "selfie_v2.hydration"
+  },
+  {
+    "value": 99,
+    "algorithm_name": "Acne",
+    "algorithm_tech_name": "selfie_v2.acne"
+  },
+  {
+    "value": 64,
+    "algorithm_name": "Lines",
+    "algorithm_tech_name": "selfie_v2.lines"
+  },
+  {
+    "value": 70,
+    "algorithm_name": "Redness",
+    "algorithm_tech_name": "selfie_v2.redness"
+  },
+  {
+    "value": 86,
+    "algorithm_name": "Pigmentation",
+    "algorithm_tech_name": "selfie_v2.pigmentation"
+  }
+]
